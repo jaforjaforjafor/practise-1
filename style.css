@@ -41,5 +41,47 @@ section{
     color: tomato;
 }
 .clr-h1{
-    color: lime;
+    color: rgb(0, 17, 255);
+}
+.thrd-1 {
+ padding-left: 5px;
+ box-shadow: 8px 3px 30px rgb(88, 247, 9);
+ margin-left: 1%;
+ margin-right: 2%;
+ width: 50%;
+ border-radius: 10px;
+ background-image: url(images/chc.jpg);
+ background-repeat: no-repeat;
+ border-left: 10px solid;
+ border-image: linear-gradient(rgb(255, 166, 0),rgb(81, 255, 0);
+ border-image-slice: 1;
+}
+
+.thrd-2 {
+    padding: left 20px;;
+    box-shadow: 10px 5px  30px rgb(148, 150, 147);
+    margin-left: 1%;
+    margin-right: 2%;
+    width: 50%;
+    border-radius: 10px;
+    background-image: url(images/hcblue.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-left: 10px solid;
+    border-image: linear-gradient( blue, cyan);
+    border-image-slice: 1;
+}
+}
+.blue-clr{
+    color: indigo;
+}
+.devide-both{
+    display: flex;
+    width: 100%
+}
+.orange-clr{
+    color: orangered;
+}
+footer p{
+    text-align: center;
 }
